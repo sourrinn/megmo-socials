@@ -66,6 +66,8 @@ const Filter = () => {
                 <BigModel imagepath={model} name='Christine' level='6' rate='6000' />
                 <BigModel imagepath={model} name='Christine' level='6' rate='6000' />
                 <BigModel imagepath={model} name='Christine' level='6' rate='6000' />
+                <BigModel imagepath={model} name='Christine' level='6' rate='6000' />
+                <BigModel imagepath={model} name='Christine' level='6' rate='6000' />
             </div>
         </section>
     )

@@ -32,3 +32,5 @@
   width: 80%;
   background: var(--bg-grey);
 }
+@media only screen and (max-width: 600px) {
+}

@@ -6,11 +6,11 @@ const BigModel = ({ imagepath, name, level, rate }) => {
         <div className="model-item">
             <img src={imagepath} alt="Model" />
             <p className='model-name'><b>{name}</b></p>
-            <label className='model-level' for="file">
+            <label className='model-level' for="level   ">
                 <p>Level {level}</p>
                 <p>{level}/10</p>
             </label>
-            <progress id="file" value="6" max="10"></progress>
+            <progress id="level" value="6" max="10"></progress>
             <p className='model'>₹{rate}/-</p>
         </div >
     )
