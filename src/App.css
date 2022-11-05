@@ -9,6 +9,8 @@ input:focus {
   outline: none;
 }
 
+/** Authentication **/
+
 .auth-section {
   display: flex;
   justify-content: space-evenly;
@@ -61,4 +63,47 @@ input:focus {
   justify-content: space-evenly;
   align-items: center;
   text-transform: uppercase;
+}
+
+/** Filter **/
+.filter-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  height: 80vh;
+  max-width: 25%;
+  padding: 20px;
+  background: pink;
+}
+.filter-menu-item {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.filter-menu-item input,
+.filter-menu-item select {
+  height: 25px;
+  width: 150px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px grey;
+  color: gray;
+}
+.model-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+  max-width: 75%;
 }
